@@ -1,0 +1,57 @@
+.section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+/*___картинка на бэкграунд___*/
+.section-background img{
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+.section-foreground{
+  /*padding: 30px 0;*/
+  display: flex;
+  /*min-height: inherit;*/
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+/*_____________*/
+.header .section-content{
+	display: flex;
+	justify-content: space-between;
+}
+
+.section-main{
+  position: relative;
+}
+
+.footer{
+  background-color: ;
+  min-height: 102px;
+}
+
+.header{
+  min-height: 84px;
+}
+
+.section-welcome{
+  min-height: 211px;
+}
+
+.section-main{
+  background-color: #34495e;
+  min-height: 943px;
+}

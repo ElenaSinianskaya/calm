@@ -1,0 +1,29 @@
+.button{
+  cursor: pointer;
+  border:none;
+  text-decoration:none;
+	font:inherit;
+  padding:10px 18px 9px 17px;
+  background: #1abc9c;
+  display: inline-block;
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.button:hover{
+  background-color: #e7e7e7;
+  color:#1abc9c;
+}
+
+.form-group-button{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.form-group-button .button{
+  font-size: 15px;
+  text-transform: uppercase;
+  margin: 12px 0 25px;
+}
